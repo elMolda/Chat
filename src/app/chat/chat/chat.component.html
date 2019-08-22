@@ -1,0 +1,24 @@
+<div>
+    <h3>This is chat component</h3>
+
+    <div>
+        <form (ngSubmit)="sendMesssage()">
+            <label for="txtFrom">From: </label>
+            <input type="text" id="txtFrom" name="msg.from" [(ngModel)]="msg.from">
+            <label for="txtTo">To: </label>
+            <input type="text" id="txtTo" name="msg.to" [(ngModel)]="msg.to">
+            <label for="txtmsgBody">Message: </label>
+            <input type="text" id="txtmsgBody" name="msg.msgBody" [(ngModel)]="msg.msgBody">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+
+
+
+
+
+    <app-message-list>
+
+    </app-message-list>
+</div>
