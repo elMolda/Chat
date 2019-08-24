@@ -1,0 +1,12 @@
+.msgList{
+    list-style-type: none;
+}
+
+.container{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 5px solid #1A3E4C;
+    background: #347B98;
+    border-radius: 10px;
+}
+

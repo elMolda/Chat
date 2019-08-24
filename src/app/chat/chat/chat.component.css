@@ -1,0 +1,20 @@
+.editMsgCont{
+    margin-top: 1.2%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 5px solid #092834;
+    background: #E4F1F6;
+    border-radius: 10px;
+}
+
+.editMsgBoxes{
+    padding: 1.5%;
+}
+
+.msgBox{
+    width: 95%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}

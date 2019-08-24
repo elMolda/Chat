@@ -1,7 +1,12 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
 <div>
-    <h4>This is Message List Component</h4>
-    <ul>
-        <li *ngFor="let msg of messages"> <app-message-view [msg]="msg">  </app-message-view> </li>
-    </ul>
-    
+    <div class="container">
+        <div>
+            <div *ngFor="let msg of messages">
+                <app-message-view [msg]="msg"> </app-message-view>
+            </div>
+        </div>
+    </div>
 </div>
